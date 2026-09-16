@@ -1,0 +1,14 @@
+name: SiegePlugin
+description: $description
+version: '${version}'
+
+main: com.Mods.siegePlugin.SiegePlugin
+api-version: '26.2'
+load: POSTWORLD
+
+commands:
+  공성전:
+    description: 공성전 팀 배정 명령어입니다.
+    usage: /공성전 팀 <공격|수비> <플레이어 이름>
+
+authors: [ M2Go_ ]
